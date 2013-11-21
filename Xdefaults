@@ -21,26 +21,29 @@ URxvt*color14: #93e0e3
 URxvt*color15: #ffffff
 !URxvt*font: xft:DejaVu Sans Mono:style=Medium :pixelsize=13
 ! Using XLFD (created via e.g. xfontsel)
-URxvt*font:           
+URxvt*font:
 -misc-fixed-medium-r-semicondensed-*-12-90-100-*-c-60-iso8859-1
 ! Using Xft
-URxvt*font:           xft:Inconsolata:size=10
+!URxvt*font: xft:Inconsolata:size=10
+!URxvt*font:         xft:Bitstream Vera Sans Mono:pixelsize=14
+URxvt*font:         xft:DejaVu Sans Mono:pixelsize=13
+!URxvt*font:         xft:Inconsolata:pixelsize=14
+!URxvt*font: -xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*
 URxvt*transparent: true
-URxvt*shading: 50
+URxvt*shading: 100
 URxvt*tint:white
 
 ! url cliquable
-URxvt.perl-ext-common:  default,matcher
-!URxvt.urlLauncher:      /usr/bin/chromium
-URxvt.matcher.button:   1 
+URxvt.perl-ext-common: default,matcher
+!URxvt.urlLauncher: /usr/bin/chromium
+URxvt.matcher.button: 1
 
 !set taille du terminal
 URxvt.geometry: 90x20
 
 ! tab
-URxvt.perl-ext-common:  default,tabbed
+URxvt.perl-ext-common: default,tabbed
 
 ! options de la bar de défillement
-URxvt*scrollBar: false 
+URxvt*scrollBar: false
 URxvt*scrollBar_right: true
-
